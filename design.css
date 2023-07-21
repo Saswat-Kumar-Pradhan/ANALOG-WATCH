@@ -1,0 +1,102 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 119, 0);
+}
+.watch
+{
+    width: 60vh;
+    height: 60vh;
+    border-radius: 50%;
+    margin-top: 17vh;
+    border: 10px solid black;
+    background-image: url(./images/face6.png);
+    background-size: cover;
+    position: relative;
+}
+.center-point
+{
+    width: 2vh;
+    height: 2vh;
+    background-color: orangered;
+    border-radius: 50%;
+    position: absolute;
+    top: 29vh;
+    left: 29vh;
+}
+.second
+{
+    width: 0.5vh;
+    height: 25vh;
+    background-color: red;
+    position: absolute;
+    top: 10.5vh;
+    left: 29.8vh;
+    transform-origin: 50% 78%;
+    transform: rotate(0deg);
+}
+.minute
+{
+    width: 1vh;
+    height: 21vh;
+    background-color: black;
+    position: absolute;
+    top: 13vh;
+    left: 29.5vh;
+    transform-origin: 50% 81%;
+    transform: rotate(270deg);
+}
+.hour
+{
+    width: 1.5vh;
+    height: 17vh;
+    background-color: black;
+    position: absolute;
+    top: 16vh;
+    left: 29.25vh;
+    transform-origin: 50% 82%;
+    transform: rotate(0deg);
+}
+.faces
+{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    border: none;
+    position: fixed;
+    top: 2vh;
+    right: 2vh;
+}
+.faces:hover
+{
+    color: white;
+}
+.watch-faces
+{
+    width: 180px;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    position: fixed;
+    top: 8vh;
+    right: 2vh;
+    text-align: center;
+    overflow-y:scroll;
+    display: none;
+}
+.watch-faces::-webkit-scrollbar {
+    display: none;
+}
+.wfaces
+{
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 1.5vh;
+}
+.wfaces img
+{
+    width: 100%;
+    border-radius: 50%;
+}
